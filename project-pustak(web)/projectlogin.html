@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTER</title>
+	<link href="https://fonts.googleapis.com/css?family=Sunflower:300,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="projectlogin.css">
+</head>
+<body>
+
+<div class="outdiv1">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		
+	<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		<a href="#" class="navbar-brand"><i class="fas fa-book-open"></i> Pustak</a></div> 
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="index.html">Home</a></li>
+	
+</ul>
+
+<!--<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+</form>-->
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="#">About</a></li>
+	<li><a href="formforproject.html"><i class="fas fa-user-plus"></i> Sign up</a></li>
+	<li class="active"><a href="#"><i class="fas fa-sign-in-alt"></i> Log in</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+
+<div class="container">
+<div class="jumbotron"><h2><img src="projecticon.png" class="img-circle"> An online bookhub</h2>
+<p> Sell your stocked books and search for others</p></div> 
+
+<form id="login">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" pattern=".{5,10}" required title="5 to 10 characters">
+  </div>
+  
+  
+ 
+<button type="button" class="btn btn-primary btn-block" onclick="login()"><i class="fas fa-sign-in-alt"></i>  Sign In</button>
+<a href="formforproject.html"><button type="button" class="btn btn-primary btn-block"><i class="fas fa-user-plus"></i>  Create New Account</button></a>
+
+
+</form>
+</div>
+
+<!--<div class="indiv1">
+  
+  <h1>you are logged in</h1>
+  <button onclick="logout()">log out</button>
+</div>-->
+
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBfowlycLiiTSDpMULCFsCxZxjjZhe0Fvo",
+    authDomain: "fir-intro-4cc43.firebaseapp.com",
+    databaseURL: "https://fir-intro-4cc43.firebaseio.com",
+    projectId: "fir-intro-4cc43",
+    storageBucket: "fir-intro-4cc43.appspot.com",
+    messagingSenderId: "44264150742"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="projectlogin.js"></script>
+</body>
+</html>

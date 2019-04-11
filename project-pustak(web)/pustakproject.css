@@ -1,0 +1,68 @@
+.jumbotron{
+	color:  #2c3e50;
+	background: #ecf0f1;
+	
+}
+.jumbotron h1{
+	
+	text-shadow: 1px 3px 2px rgba(16, 28, 45,0.2), 2px 4px 3px rgb(99, 135, 74);
+}
+.navbar-inverse{
+	background: #43608e;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white; }
+body{
+	padding-top: 70px;
+	font-family: lato;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    
+    background-color: #28426b;
+}
+ .jumbotron img{
+	width: 200px;
+	height: 200px;
+
+}
+#booklist{
+	margin-top: 50px;
+	font-family: sunflower;
+	font-weight: 700;
+
+}
+hr{
+	margin-bottom: 30px;
+	border-top: 2px solid #464e5b;
+	border-bottom: 1px solid rgba(100,10,155,0.4);
+}
+.bookimg{
+	
+	width: 150px;
+}
+.thumbnail img{
+	height: 150px;
+	width: 70%;
+}
+.caption h3{
+	color: #080a28;
+	font-weight: 700;
+}
+.caption{
+	color: #797a89;
+}
+.row{
+	float: left;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	height: 150px; }
+
+.thumbnail .caption {
+	height:250px; }
+
+.seller{
+	color:#05718c;
+}	
