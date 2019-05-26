@@ -1,0 +1,4 @@
+this is a rgb color guessing game. 
+With the value given for the respective red, green and blue color, the color of the mixture need to visualized and guessed.
+There are two modes : easy and hard mode, in easy mode, there are three options and in hard mode, there are 6 options to choose.
+It is designed using javascript, html, css, bootstrap, jquery etc.
