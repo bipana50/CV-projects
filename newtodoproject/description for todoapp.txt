@@ -1,0 +1,4 @@
+A simple todo app.
+A task can be added and deleted with a trash button.
+The plus button help hide and show the task adding field.
+Simple animation is used along with html, css, javascript, jquery etc.
