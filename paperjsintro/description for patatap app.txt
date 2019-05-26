@@ -1,0 +1,3 @@
+Pressing any alphabet in the keyboard gives circles at different places in the screen and sounds.
+Every letter has a different sound. 
+Paper.js library is used to create animations for the circles.
