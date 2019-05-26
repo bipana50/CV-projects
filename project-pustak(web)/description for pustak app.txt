@@ -1,0 +1,4 @@
+An application where users can create account.
+They can sell their old books for other users to buy.
+They can also register if they have their own bookstore and manage the books in the store uploaded at their own database.
+Users can both search for old, used books or new books from the store near to them which is analyzed via google map. 
